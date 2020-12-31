@@ -7,9 +7,11 @@ This project is made in python3 by using a very strong computer vision library o
 * PILLOW 7.2.0
 
 ## How to use ##
-`if __name__ == "__main__":`
-`   doc = DocumentScanner('vid.mp4', IMG_FLAG=False, VID_FLAG=True, SAVE_PDF=True)`
-`   doc.execute()`
+```python
+if __name__ == "__main__":
+    doc = DocumentScanner('vid.mp4', IMG_FLAG=False, VID_FLAG=True, SAVE_PDF=True)
+    doc.execute()
+```
     
 ### parameters ### 
 * `path`: path to the file(image or video)
